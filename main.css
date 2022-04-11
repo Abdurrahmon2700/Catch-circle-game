@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1140px;
+  padding: 10px 15px 0 15px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+}
+.game {
+  display: flex;
+  justify-content: space-between;
+}
+.gamezone {
+  border: 2px solid red;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+.mouse {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 28px;
+}
+
+.refresh {
+  position: absolute;
+  top: 48%;
+  left: 44%;
+  border: none;
+  font-size: 50px;
+  background-color: red;
+  border: 4px solid #fff;
+  display: none;
+  padding: 10px;
+  border-radius: 20px;
+}
